@@ -1,6 +1,6 @@
 name= input("Hi, What is your name?")
 
-print("+"*25, "\nODD NUMBER SELECTOR, press 0 to stop the loop" )
+print("+"*25, "\n\nODD NUMBER SELECTOR, press 0 to stop the loop" )
 
 print("+"*25)
  
@@ -31,5 +31,4 @@ print("Hi", name, "the sum of all Odd numbers is", sum)
 print("Odd number include the ff:", (odd))
     
         
-
     
