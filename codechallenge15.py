@@ -46,23 +46,23 @@ while True:
     
         continue
     elif choice == 'c':
-        os.system('cls') 
-        print("SEARCH STUDENT RECORD")
+    os.system('cls') 
+    print("SEARCH STUDENT RECORD")
 
-        search_id= input("INPUT STUDENT ID:").lower()
+    search_id = input("INPUT STUDENT ID:")
 
-        for each_student in stud_record.keys():
-            if search_id in stud_record.keys():
-                print("\n\nRECORD FOUND")
-                print(" ===============================================")
-                for id in stud_record[search_id]:
-                    print(f"-- {id} ")
-                    break
-                print(" ===============================================")
-            else:
-                print("NO RECORD FOUND")
-            break
-        continue
+    for each_student in stud_record.keys():
+        if search_id in stud_record.keys():
+            print("\n\nRECORD FOUND")
+            print(" ===============================================")
+            for id in stud_record[search_id]:
+                print(f"-- {id} ")
+            print(" ===============================================")
+        else:
+            print("NO RECORD FOUND")
+        break
+    continue
+
     elif choice == 'd':
         os.system('cls') 
         print("DELETE STUDENT RECORD")
@@ -138,4 +138,5 @@ while True:
         print("System Exit")
         break
     else:
+
         print("Invalid Choice, Re-enter Code")
