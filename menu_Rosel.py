@@ -1458,8 +1458,8 @@ def dictionary_sample_program():
                         print("\tDATA UPDATED SUCCESFULLY")
                     else:
                         print("\tNO RECORD FOUND")
-                    break
-                continue
+                        break
+                        continue
 
             elif choice == 'f':
                 print("\tEXPORT DATA")
@@ -1572,4 +1572,5 @@ def main_menu(name):
 
 #TO START PROGRAM/CALL THE FUNCTION
 user = welcome_screen()
+
 main_menu(user)
