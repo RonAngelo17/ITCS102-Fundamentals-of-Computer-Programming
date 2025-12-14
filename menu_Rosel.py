@@ -1574,3 +1574,4 @@ def main_menu(name):
 user = welcome_screen()
 
 main_menu(user)
+
