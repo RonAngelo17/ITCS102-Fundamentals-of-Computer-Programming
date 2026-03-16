@@ -9,8 +9,8 @@ window.configure(bg="light green")
 profile_builder_label = tk.Label(window, text="Profile Builder", font=("Poppins", 15, "bold"), bg="light green", anchor="center")
 profile_builder_label.grid(row=0, column=3)
 
-frame = tk.Frame(window, bg="green", bd=2, relief="flat")
-frame.grid(row=1, column=3, padx=20, pady=10, )
+frame = tk.Frame(window, bg="green", bd=2, relief="groove")
+frame.grid(row=1, column=3, padx=20, pady=10, fill="x" )
 
 first_name_entry = tk.Entry(frame, relief="sunken")
 first_name_entry.grid(row=0, column=0, columnspan=2,pady=5, padx=5)
